@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#d21404">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_action_item"
+            />
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:layout_alignLeft="@+id/imageView"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="price"
+            android:layout_alignLeft="@+id/textViewName"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/textViewType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="type"
+            android:layout_alignLeft="@+id/textViewPrice"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="date"
+            android:layout_alignLeft="@+id/textViewType"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
